@@ -5,13 +5,13 @@
       "description": "Applies a required tag and its default value if it is not specified by the user.",
       "parameters": {
          "tagName": {
-            "type": "String",
+            "type": "Array",
             "metadata": {
                "description": "Name of the tag, such as costCenter"
             }
          },
          "tagValue": {
-            "type": "String",
+            "type": "Array",
             "metadata": {
                "description": "Value of the tag, such as headquarter"
             }
